@@ -1,0 +1,49 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 650px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+  td, th {
+    padding: 10px 5px;
+    text-align: left;
+    line-height: 1.5;
+  }
+  th{
+    background-color: rgba(128, 128, 128, 0.134);
+  }
+
+
+
+
+  #texto{
+    padding-bottom: 30px;
+  }
+  
+  nav {
+    float: left;
+    width: 100vw;
+  }
+
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: 0.5s;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    scale: 1.1;
+  }
